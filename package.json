@@ -1,0 +1,14 @@
+{
+  "name": "babel-und-weppack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "babel":"babel app.js -o bundle.js --presets @babel/preset-env"
+  },
+  "author": "iman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11"
+  }
+}
