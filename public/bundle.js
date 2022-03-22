@@ -21,9 +21,12 @@ var App = /*#__PURE__*/function () {
   _createClass(App, [{
     key: "getName",
     value: function getName() {
-      console.log("kasra");
+      console.log("kasra ist mein sohn 2222222222233333");
     }
   }]);
 
   return App;
 }();
+
+new App().getName();
+console.log("darya ist meine Tochter 1111111111");
